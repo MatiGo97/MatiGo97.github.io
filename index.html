@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final / Currículum Vitae</title>
+    <link rel="icon" type="image/x-icon" href="imágenes/account_circle_FILL1_wght400_GRAD0_opsz48.png"/>
+    <link rel="stylesheet" type="text/css" href="css/styles.css"/>
+    
+</head>
+
+<body>
+
+    <header>
+        <h1>Curriculum Vitae</h1>
+    </header>
+
+    <section>
+        <div id="info_derecha">
+            
+            <div id="foto">
+                <img id="foto_carnet" src="https://randomuser.me/api/portraits/women/67.jpg" alt="Imagen de rostro femenino">
+            </div>
+
+            <h3>Datos Personales</h3>
+                <ul id="lista_pr">
+                    <li>Nombre: Ailín Jimena</li>
+                    <li>Apellido: Berasay</li>
+                    <li>DNI: 36.565.495</li>
+                    <li>Sexo: Femenino</li>
+                    <li>Fecha de Nacimiento: 03 / Agosto / 1992</li>
+                    <li>Edad: 31</li>
+                    <li>Dirección: General Pacheco 1042, Salta</li>
+                    <li>Nacionalidad: Argentina</li>
+                </ul>
+    
+        </div>
+        
+        <div id="principal">
+
+            <h2>Nivel académico</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vestibulum, neque eu dignissim varius, turpis orci pharetra dui, laoreet congue magna arcu vitae sem. Ut orci mi, imperdiet eu semper nec, consectetur sit amet dui. In a eros sed urna aliquam pharetra eu eu tortor. Mauris augue justo, posuere eu posuere ut, vulputate quis risus. Donec vitae auctor lacus. Donec pharetra tellus sapien, eu imperdiet massa bibendum quis. Aliquam ullamcorper scelerisque velit ac lacinia. Fusce eleifend, libero sed semper ornare, erat erat euismod ex, nec tempor arcu justo vel ex. Curabitur ac nisl non quam porta scelerisque. Mauris mollis urna et arcu ullamcorper, sit amet cursus erat viverra. Pellentesque sit amet varius diam. Curabitur venenatis tellus a interdum malesuada. Nulla sollicitudin urna vitae tellus placerat egestas.</p>
+    
+            <h2>Habilidades</h2>
+            <p>Proin condimentum fermentum lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae metus eu est aliquet convallis eu a sapien. Cras porttitor risus lorem, non elementum nisi luctus ac. Maecenas condimentum nec enim at varius. Nam lectus neque, congue aliquam odio at, placerat varius turpis. Sed varius velit metus, vel cursus ligula vulputate vel. Nulla vitae nulla ac velit condimentum imperdiet ac ac mi. Sed efficitur blandit molestie. Mauris sed quam suscipit, auctor justo in, congue lacus. Sed in pellentesque sem, ut blandit odio. Morbi et sapien feugiat, lacinia orci nec, rhoncus massa. Phasellus dictum neque imperdiet, fermentum augue sit amet, efficitur nibh. Cras elit leo, rhoncus malesuada dignissim eu, ullamcorper quis enim. Fusce dignissim sed risus nec tempor.</p>
+    
+            <h2>Referencias</h2>
+                <ul>
+                    <li>Duis pharetra tempor magna non ultrices. Aenean in interdum purus. Vestibulum sed iaculis massa, placerat lacinia diam.</li>
+                    <li>Nullam quis turpis sit amet lorem hendrerit lacinia a eu diam. Donec non pellentesque arcu, scelerisque tempor magna.</li>
+                    <li>In id urna at felis placerat mattis in eget nunc. Mauris congue efficitur tortor, non iaculis ligula sagittis vitae.</li>
+                    <li>Vivamus nec justo pretium, blandit tellus nec, ornare odio. Nullam facilisis lectus eu fermentum vestibulum. Morbi eu quam dignissim, sollicitudin urna fringilla, interdum justo.</li>
+                    <li>Duis interdum nisl sodales, egestas dui sit amet, iaculis urna. Curabitur tempor turpis sed mauris condimentum luctus.</li>
+                </ul>
+    
+        </div>
+    </section>
+
+    <footer>
+
+        <h2 style="color: crimson;">Datos del visitante</h2>
+
+        <form action="js/datos.json" method="post">
+            <label>Nombre:</label>
+            <input type="text" name="nombre" placeholder="Ingrese su Nombre">
+
+            <label>| Apellido:</label>
+            <input type="text" name="apellido" placeholder="Ingrese su Apellido">
+
+            <label>| Correo electrónico:</label>
+            <input type="email" name="correo" id="correo" placeholder="Obligatorio" required>
+
+            <label>| Empresa:</label>
+            <input type="text" name="empresa" id="empresa" placeholder="Obligatorio" required>
+
+            <input  type="submit" value="Enviar">
+        </form>
+
+        <button id="boton_contacto">Datos de Contacto</button>
+        <ul id="lista_final">
+            <li id="email"></li>
+            <li id="tfijo"></li>
+            <li id="celular"></li>
+        </ul>
+
+        <script src="js/footer.js"></script>
+
+    </footer>
+
+</body>
+</html>

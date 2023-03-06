@@ -101,3 +101,7 @@ button{
     text-align: left;
     margin: 15px;
 }
+
+#boton_ocultar{
+    display: none;
+}

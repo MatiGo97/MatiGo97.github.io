@@ -60,39 +60,18 @@
 
     <footer>
 
-        <h2 style="color: crimson;">Datos del visitante</h2>
+        <button id="boton_mostrar">Mostrar Datos de Contacto</button>
+        <button id="boton_ocultar">Ocultar Datos de Contacto</button>
 
-        <form action="" method="post">
-
-    <!--
-        Para el atributo action lo dejé en blanco por que no tengo ningún servidor donde mandar los datos.
-    -->  
-
-            <label>Nombre:</label>
-            <input type="text" name="nombre" placeholder="Ingrese su Nombre">
-
-            <label>| Apellido:</label>
-            <input type="text" name="apellido" placeholder="Ingrese su Apellido">
-
-            <label>| Correo electrónico:</label>
-            <input type="email" name="correo" id="correo" placeholder="Obligatorio" required>
-
-            <label>| Empresa:</label>
-            <input type="text" name="empresa" id="empresa" placeholder="Obligatorio" required>
-
-            <input  type="submit" value="Enviar">
-        </form>
-
-        <button id="boton_contacto">Datos de Contacto</button>
         <ul id="lista_final">
             <li id="email"></li>
             <li id="tfijo"></li>
             <li id="celular"></li>
         </ul>
 
-        <script src="js/footer.js"></script>
-
     </footer>
+
+    <script src="js/function.js"></script>
 
 </body>
 </html>
